@@ -1,0 +1,698 @@
+apiVersion: v1
+entries:
+  seldon-abtest:
+  - apiVersion: v1
+    created: 2018-12-16T17:14:07.205495545Z
+    description: Seldon Core AB test template. Allows you to split traffic between
+      two models.
+    digest: f9e756f139599f2571fc8b46b1b697f0ad65a693c0017f35c387a7121e4fcd9f
+    keywords:
+    - kubernetes
+    - machine-learning
+    name: seldon-abtest
+    sources:
+    - https://github.com/SeldonIO/seldon-core
+    urls:
+    - https://windkit.github.io/kubeflow-images/seldon-charts/seldon-abtest-0.1.tgz
+    version: "0.1"
+  seldon-core:
+  - apiVersion: v1
+    created: 2018-12-16T17:14:07.20586432Z
+    description: Seldon Core helm chart for Kubernetes
+    digest: 90ea9bc885419915d3a4b3b36cfa91a63c289e47b3729a766988765d10f004d6
+    keywords:
+    - kubernetes
+    - machine-learning
+    name: seldon-core
+    sources:
+    - https://github.com/SeldonIO/seldon-core
+    urls:
+    - https://windkit.github.io/kubeflow-images/seldon-charts/seldon-core-0.2.5.tgz
+    version: 0.2.5
+  - apiVersion: v1
+    created: 2018-11-27T11:45:04.180840829Z
+    description: Seldon Core helm chart for Kubernetes
+    digest: ac9b4830050fe180896a0eb775019955cc7af1c5c293941716dff8d745b68399
+    keywords:
+    - kubernetes
+    - machine-learning
+    name: seldon-core
+    sources:
+    - https://github.com/SeldonIO/seldon-core
+    urls:
+    - https://windkit.github.io/kubeflow-images/seldon-charts/seldon-core-0.2.5-SNAPSHOT.tgz
+    version: 0.2.5-SNAPSHOT
+  - apiVersion: v1
+    created: 2018-11-07T14:50:05.313336226Z
+    description: Seldon Core helm chart for Kubernetes
+    digest: 88e0d5d0bc49f8e421829d6101dc8b6b3737f33bbef4f7b65de77e800d058a48
+    keywords:
+    - kubernetes
+    - machine-learning
+    name: seldon-core
+    sources:
+    - https://github.com/SeldonIO/seldon-core
+    urls:
+    - https://windkit.github.io/kubeflow-images/seldon-charts/seldon-core-0.2.4.tgz
+    version: 0.2.4
+  - apiVersion: v1
+    created: 2018-10-31T15:46:22.953053331Z
+    description: Seldon Core helm chart for Kubernetes
+    digest: 69457ce58e09455f2dd75e943dbfcd6ffaa1e9062cf4c23c28f794d42acfe859
+    keywords:
+    - kubernetes
+    - machine-learning
+    name: seldon-core
+    sources:
+    - https://github.com/SeldonIO/seldon-core
+    urls:
+    - https://windkit.github.io/kubeflow-images/seldon-charts/seldon-core-0.2.4-SNAPSHOT.tgz
+    version: 0.2.4-SNAPSHOT
+  - apiVersion: v1
+    created: 2018-09-17T11:43:01.955080096+01:00
+    description: Seldon Core helm chart for Kubernetes
+    digest: a6545d14c2ca22d089c103895755a0fa0408519b60bf0c56292fe8cb6104cabc
+    keywords:
+    - kubernetes
+    - machine-learning
+    name: seldon-core
+    sources:
+    - https://github.com/SeldonIO/seldon-core
+    urls:
+    - https://windkit.github.io/kubeflow-images/seldon-charts/seldon-core-0.2.3.tgz
+    version: 0.2.3
+  - apiVersion: v1
+    created: 2018-09-10T20:04:58.842228677+01:00
+    description: Seldon Core helm chart for Kubernetes
+    digest: 479ba3769049526b32fa00039b700a8e5d481fab166a3c0f3a45dbc7f74f06d2
+    keywords:
+    - kubernetes
+    - machine-learning
+    name: seldon-core
+    sources:
+    - https://github.com/SeldonIO/seldon-core
+    urls:
+    - https://windkit.github.io/kubeflow-images/seldon-charts/seldon-core-0.2.3-SNAPSHOT.tgz
+    version: 0.2.3-SNAPSHOT
+  - apiVersion: v1
+    created: 2018-07-18T14:15:54.308058522+01:00
+    description: Seldon Core helm chart for Kubernetes
+    digest: b95f5a7a6053bdbcd193b41ee42209e7dfdb724ed2928cb06ee72356c1d488e5
+    keywords:
+    - kubernetes
+    - machine-learning
+    name: seldon-core
+    sources:
+    - https://github.com/SeldonIO/seldon-core
+    urls:
+    - https://windkit.github.io/kubeflow-images/seldon-charts/seldon-core-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v1
+    created: 2018-07-09T11:32:17.424948972+01:00
+    description: Seldon Core helm chart for Kubernetes
+    digest: 209adff250d030220b2e76fce66de89ccb5d49b54899b9ac849839304d93f1b4
+    keywords:
+    - kubernetes
+    - machine-learning
+    name: seldon-core
+    sources:
+    - https://github.com/SeldonIO/seldon-core
+    urls:
+    - https://windkit.github.io/kubeflow-images/seldon-charts/seldon-core-0.2.1.tgz
+    version: 0.2.1
+  - apiVersion: v1
+    created: 2018-06-29T11:34:44.814760602+01:00
+    description: Seldon Core helm chart for Kubernetes
+    digest: dab5135432bc0dea9fd29e0aa85ecb119dacd1f4c8220a833253c93f0e119982
+    keywords:
+    - kubernetes
+    - machine-learning
+    name: seldon-core
+    sources:
+    - https://github.com/SeldonIO/seldon-core
+    urls:
+    - https://windkit.github.io/kubeflow-images/seldon-charts/seldon-core-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v1
+    created: 2018-06-27T13:59:10.786668457+01:00
+    description: Seldon Core helm chart for Kubernetes
+    digest: b250b9dcff18bdb9113c40cbf03057f8942df0cf306a629b2c1a8e218da1baf7
+    keywords:
+    - kubernetes
+    - machine-learning
+    name: seldon-core
+    sources:
+    - https://github.com/SeldonIO/seldon-core
+    urls:
+    - https://windkit.github.io/kubeflow-images/seldon-charts/seldon-core-0.1.8.tgz
+    version: 0.1.8
+  - apiVersion: v1
+    created: 2018-06-04T10:46:06.384616+01:00
+    description: Seldon Core helm chart for Kubernetes
+    digest: f97778cfd9b3e897837d9d7331f3d1d12abfae11effe181bfa052d5960f9973c
+    keywords:
+    - kubernetes
+    - machine-learning
+    name: seldon-core
+    sources:
+    - https://github.com/SeldonIO/seldon-core
+    urls:
+    - https://windkit.github.io/kubeflow-images/seldon-charts/seldon-core-0.1.7.tgz
+    version: 0.1.7
+  - apiVersion: v1
+    created: 2018-03-30T08:57:21.7264668+01:00
+    description: Seldon Core helm chart for Kubernetes
+    digest: 7c7490665063b2ac3b97343ae53a53fa4b465bc208007a83c686648fe0be8760
+    keywords:
+    - kubernetes
+    - machine-learning
+    name: seldon-core
+    sources:
+    - https://github.com/SeldonIO/seldon-core
+    urls:
+    - https://windkit.github.io/kubeflow-images/seldon-charts/seldon-core-0.1.6.tgz
+    version: 0.1.6
+  - apiVersion: v1
+    created: 2018-02-19T12:44:57.743350125Z
+    description: Seldon Core helm chart for Kubernetes
+    digest: 355254c63303927c1a42b67cf1ff308dbff5e0275852b6cfad1bef74b3a92793
+    keywords:
+    - kubernetes
+    - machine-learning
+    name: seldon-core
+    sources:
+    - https://github.com/SeldonIO/seldon-core
+    urls:
+    - https://windkit.github.io/kubeflow-images/seldon-charts/seldon-core-0.1.5.tgz
+    version: 0.1.5
+  - apiVersion: v1
+    created: 2018-02-17T15:09:32.646937375Z
+    description: Seldon Core helm chart for Kubernetes
+    digest: 0d5299ccff2ad763642071031e763036950b56b3ec001628cab0d1bd749f1382
+    keywords:
+    - kubernetes
+    - machine-learning
+    name: seldon-core
+    sources:
+    - https://github.com/SeldonIO/seldon-core
+    urls:
+    - https://windkit.github.io/kubeflow-images/seldon-charts/seldon-core-0.1.5-SNAPSHOT.tgz
+    version: 0.1.5-SNAPSHOT
+  - apiVersion: v1
+    created: 2018-02-05T11:35:53.104993326Z
+    description: Seldon Core helm chart for Kubernetes
+    digest: 8d21801c35fca2d472ec2ae3699affe55dd9a75849ac7f62c78a6358df37b012
+    keywords:
+    - kubernetes
+    - machine-learning
+    name: seldon-core
+    sources:
+    - https://github.com/SeldonIO/seldon-core
+    urls:
+    - https://windkit.github.io/kubeflow-images/seldon-charts/seldon-core-0.1.4.tgz
+    version: 0.1.4
+  - apiVersion: v1
+    created: 2018-01-26T11:06:23.885626135Z
+    description: Seldon Core helm chart for Kubernetes
+    digest: cc6cbff1b29f2ac0c745936a23a2095ebe591e4a5a43f7b47e29a18938fa46dd
+    keywords:
+    - kubernetes
+    - machine-learning
+    name: seldon-core
+    sources:
+    - https://github.com/SeldonIO/seldon-core
+    urls:
+    - https://windkit.github.io/kubeflow-images/seldon-charts/seldon-core-0.1.3.tgz
+    version: 0.1.3
+  - apiVersion: v1
+    created: 2018-01-24T10:59:05.374557277Z
+    description: Seldon Core helm chart for Kubernetes
+    digest: 475510f2485f4751184d2b339072f24ce6db0764dd5ff0e56ef071412d8350e1
+    keywords:
+    - kubernetes
+    - machine-learning
+    name: seldon-core
+    sources:
+    - https://github.com/SeldonIO/seldon-core
+    urls:
+    - https://windkit.github.io/kubeflow-images/seldon-charts/seldon-core-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v1
+    created: 2018-01-10T17:30:06.497220469Z
+    description: Seldon Core helm chart for Kubernetes
+    digest: 8b7355007b47df0f5d0f7a0fc21e020b2214bcc772b5dcf29d3a201239473704
+    keywords:
+    - kubernetes
+    - machine-learning
+    name: seldon-core
+    sources:
+    - https://github.com/SeldonIO/seldon-core
+    urls:
+    - https://windkit.github.io/kubeflow-images/seldon-charts/seldon-core-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v1
+    created: 2018-01-03T15:54:33.502400104Z
+    description: Seldon Core helm chart for Kubernetes
+    digest: aeaf18c70ed7d358aa17a3c1da78f19b1810e608705c514a8a1599d7e18d3aac
+    keywords:
+    - kubernetes
+    - machine-learning
+    name: seldon-core
+    sources:
+    - https://github.com/SeldonIO/seldon-core
+    urls:
+    - https://windkit.github.io/kubeflow-images/seldon-charts/seldon-core-0.1.0.tgz
+    version: 0.1.0
+  - apiVersion: v1
+    created: 2018-03-07T15:24:35.702827826Z
+    description: Seldon Core helm chart for Kubernetes
+    digest: eb475aec79e1acef11344261aa90b1c7ca46b81f5927798837d0f343e3ea31e5
+    keywords:
+    - kubernetes
+    - machine-learning
+    name: seldon-core
+    sources:
+    - https://github.com/SeldonIO/seldon-core
+    urls:
+    - https://windkit.github.io/kubeflow-images/seldon-charts/seldon-core-0.1.6_SNAPSHOT.tgz
+    version: 0.1.6_SNAPSHOT
+  seldon-core-analytics:
+  - apiVersion: v1
+    created: 2018-12-16T17:14:07.207143904Z
+    description: Seldon Core Analytics
+    digest: 212f971d9040569b5859736831acbfefc98cf736d50c3ba954a114dc533ec18b
+    keywords:
+    - seldon-core
+    - kubernetes
+    - machine-learning
+    - prometheus
+    - grafana
+    name: seldon-core-analytics
+    sources:
+    - https://github.com/SeldonIO/seldon-core
+    urls:
+    - https://windkit.github.io/kubeflow-images/seldon-charts/seldon-core-analytics-0.2.5.tgz
+    version: 0.2.5
+  - apiVersion: v1
+    created: 2018-11-27T11:45:04.181660133Z
+    description: Seldon Core Analytics
+    digest: 7423766bb762556b34498247e8982194dfd67c5f94d46f87f782d20487852d12
+    keywords:
+    - seldon-core
+    - kubernetes
+    - machine-learning
+    - prometheus
+    - grafana
+    name: seldon-core-analytics
+    sources:
+    - https://github.com/SeldonIO/seldon-core
+    urls:
+    - https://windkit.github.io/kubeflow-images/seldon-charts/seldon-core-analytics-0.2.5-SNAPSHOT.tgz
+    version: 0.2.5-SNAPSHOT
+  - apiVersion: v1
+    created: 2018-11-07T14:50:05.314101379Z
+    description: Seldon Core Analytics
+    digest: f896703eaa0c5141ba3947a0c8582413e94766bb4ddb0195b7b2a5980ee69548
+    keywords:
+    - seldon-core
+    - kubernetes
+    - machine-learning
+    - prometheus
+    - grafana
+    name: seldon-core-analytics
+    sources:
+    - https://github.com/SeldonIO/seldon-core
+    urls:
+    - https://windkit.github.io/kubeflow-images/seldon-charts/seldon-core-analytics-0.2.3.tgz
+    version: 0.2.3
+  - apiVersion: v1
+    created: 2018-07-18T14:15:54.308872955+01:00
+    description: Seldon Core Analytics
+    digest: 902bf507c779a50de246f2fc444dbffa9426c3b77e958a61a4206c3ffd07ffc8
+    keywords:
+    - seldon-core
+    - kubernetes
+    - machine-learning
+    - prometheus
+    - grafana
+    name: seldon-core-analytics
+    sources:
+    - https://github.com/SeldonIO/seldon-core
+    urls:
+    - https://windkit.github.io/kubeflow-images/seldon-charts/seldon-core-analytics-0.2.tgz
+    version: "0.2"
+  - apiVersion: v1
+    created: 2018-03-07T15:24:35.703572962Z
+    description: Seldon Core Analytics
+    digest: 3f77d30ecd55351903615fcddfe1a3e4ba7627ca56ff590e6441eeeb2b88bf21
+    keywords:
+    - seldon-core
+    - kubernetes
+    - machine-learning
+    - prometheus
+    - grafana
+    name: seldon-core-analytics
+    sources:
+    - https://github.com/SeldonIO/seldon-core
+    urls:
+    - https://windkit.github.io/kubeflow-images/seldon-charts/seldon-core-analytics-0.1.tgz
+    version: "0.1"
+  seldon-core-crd:
+  - apiVersion: v1
+    created: 2018-12-16T17:14:07.209112269Z
+    description: Seldon Core CRD helm chart for Kubernetes
+    digest: f93a6a12670f11510a873558d6912a02595b3d931b5ae2abdc4266e54697dbbc
+    keywords:
+    - kubernetes
+    - machine-learning
+    name: seldon-core-crd
+    sources:
+    - https://github.com/SeldonIO/seldon-core
+    urls:
+    - https://windkit.github.io/kubeflow-images/seldon-charts/seldon-core-crd-0.2.5.tgz
+    version: 0.2.5
+  - apiVersion: v1
+    created: 2018-11-27T11:45:04.18325832Z
+    description: Seldon Core CRD helm chart for Kubernetes
+    digest: 5e079bc92b734bb20645d610f0ac573c9d4dae290e9a5ea6cb25a891fe29c1b5
+    keywords:
+    - kubernetes
+    - machine-learning
+    name: seldon-core-crd
+    sources:
+    - https://github.com/SeldonIO/seldon-core
+    urls:
+    - https://windkit.github.io/kubeflow-images/seldon-charts/seldon-core-crd-0.2.5-SNAPSHOT.tgz
+    version: 0.2.5-SNAPSHOT
+  - apiVersion: v1
+    created: 2018-11-07T14:50:05.316022515Z
+    description: Seldon Core CRD helm chart for Kubernetes
+    digest: 9f2e5f95d7b03969c51e5648a3b9152d5a9c6a2167531e5d0a9a965f9b810b13
+    keywords:
+    - kubernetes
+    - machine-learning
+    name: seldon-core-crd
+    sources:
+    - https://github.com/SeldonIO/seldon-core
+    urls:
+    - https://windkit.github.io/kubeflow-images/seldon-charts/seldon-core-crd-0.2.4.tgz
+    version: 0.2.4
+  - apiVersion: v1
+    created: 2018-10-31T15:46:22.956031348Z
+    description: Seldon Core CRD helm chart for Kubernetes
+    digest: 90fabf92cafb68cb1fe77773929170cdd880ddf593c09a7e2789dd8182c1563b
+    keywords:
+    - kubernetes
+    - machine-learning
+    name: seldon-core-crd
+    sources:
+    - https://github.com/SeldonIO/seldon-core
+    urls:
+    - https://windkit.github.io/kubeflow-images/seldon-charts/seldon-core-crd-0.2.4-SNAPSHOT.tgz
+    version: 0.2.4-SNAPSHOT
+  - apiVersion: v1
+    created: 2018-09-17T11:43:01.957485006+01:00
+    description: Seldon Core CRD helm chart for Kubernetes
+    digest: 2330a67f31caa38a583beffa171d04a7e49a8b864e29d1e1dd0f33fb1abe2fdd
+    keywords:
+    - kubernetes
+    - machine-learning
+    name: seldon-core-crd
+    sources:
+    - https://github.com/SeldonIO/seldon-core
+    urls:
+    - https://windkit.github.io/kubeflow-images/seldon-charts/seldon-core-crd-0.2.3.tgz
+    version: 0.2.3
+  - apiVersion: v1
+    created: 2018-09-10T20:04:58.844448208+01:00
+    description: Seldon Core CRD helm chart for Kubernetes
+    digest: 136b339dc93f37e7fdcfc80ce131d1218589599a3462bd35a5bce553d7ca588e
+    keywords:
+    - kubernetes
+    - machine-learning
+    name: seldon-core-crd
+    sources:
+    - https://github.com/SeldonIO/seldon-core
+    urls:
+    - https://windkit.github.io/kubeflow-images/seldon-charts/seldon-core-crd-0.2.3-SNAPSHOT.tgz
+    version: 0.2.3-SNAPSHOT
+  - apiVersion: v1
+    created: 2018-07-18T14:15:54.31058899+01:00
+    description: Seldon Core CRD helm chart for Kubernetes
+    digest: 48225ec523eaa586b6dbea3db39d68c08c22ab173789fab1d2d9cfd6d5369e20
+    keywords:
+    - kubernetes
+    - machine-learning
+    name: seldon-core-crd
+    sources:
+    - https://github.com/SeldonIO/seldon-core
+    urls:
+    - https://windkit.github.io/kubeflow-images/seldon-charts/seldon-core-crd-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v1
+    created: 2018-07-09T11:32:17.427731345+01:00
+    description: Seldon Core CRD helm chart for Kubernetes
+    digest: aaf5d71ceea3ddbd26f98d35f8810a95ba96da8bf7330d0acd5934476298569a
+    keywords:
+    - kubernetes
+    - machine-learning
+    name: seldon-core-crd
+    sources:
+    - https://github.com/SeldonIO/seldon-core
+    urls:
+    - https://windkit.github.io/kubeflow-images/seldon-charts/seldon-core-crd-0.2.1.tgz
+    version: 0.2.1
+  - apiVersion: v1
+    created: 2018-06-29T11:34:44.817241547+01:00
+    description: Seldon Core CRD helm chart for Kubernetes
+    digest: 8081a4311e390b4f17e41c18cb8f9c7b900a2dd8bd8ce7cd051b2344606b1f9f
+    keywords:
+    - kubernetes
+    - machine-learning
+    name: seldon-core-crd
+    sources:
+    - https://github.com/SeldonIO/seldon-core
+    urls:
+    - https://windkit.github.io/kubeflow-images/seldon-charts/seldon-core-crd-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v1
+    created: 2018-06-27T13:59:10.78934638+01:00
+    description: Seldon Core CRD helm chart for Kubernetes
+    digest: ece6b8684d22ca8441ee4480c97a74194e3e8eb3c38069e07d3c7be65f311a7f
+    keywords:
+    - kubernetes
+    - machine-learning
+    name: seldon-core-crd
+    sources:
+    - https://github.com/SeldonIO/seldon-core
+    urls:
+    - https://windkit.github.io/kubeflow-images/seldon-charts/seldon-core-crd-0.1.8.tgz
+    version: 0.1.8
+  - apiVersion: v1
+    created: 2018-06-04T10:46:06.387103+01:00
+    description: Seldon Core CRD helm chart for Kubernetes
+    digest: 95cac05e5f7848ec30e68472103f82fd78c589a3ec553f42e38a604574d7f756
+    keywords:
+    - kubernetes
+    - machine-learning
+    name: seldon-core-crd
+    sources:
+    - https://github.com/SeldonIO/seldon-core
+    urls:
+    - https://windkit.github.io/kubeflow-images/seldon-charts/seldon-core-crd-0.1.7.tgz
+    version: 0.1.7
+  - apiVersion: v1
+    created: 2018-03-30T08:57:21.728549361+01:00
+    description: Seldon Core CRD helm chart for Kubernetes
+    digest: dc1895c14acbcf2283066ab9570115b75e1fbe0103145aa3715777491945c8a6
+    keywords:
+    - kubernetes
+    - machine-learning
+    name: seldon-core-crd
+    sources:
+    - https://github.com/SeldonIO/seldon-core
+    urls:
+    - https://windkit.github.io/kubeflow-images/seldon-charts/seldon-core-crd-0.1.6.tgz
+    version: 0.1.6
+  - apiVersion: v1
+    created: 2018-02-19T12:44:57.745328114Z
+    description: Seldon Core CRD helm chart for Kubernetes
+    digest: bc186db62320633da22c6fab56556966b1e77e138360af2643e5a20199a4bf76
+    keywords:
+    - kubernetes
+    - machine-learning
+    name: seldon-core-crd
+    sources:
+    - https://github.com/SeldonIO/seldon-core
+    urls:
+    - https://windkit.github.io/kubeflow-images/seldon-charts/seldon-core-crd-0.1.5.tgz
+    version: 0.1.5
+  - apiVersion: v1
+    created: 2018-02-17T15:09:32.648976804Z
+    description: Seldon Core CRD helm chart for Kubernetes
+    digest: efcdb163d771d13e9f0608fd6f62eb20d57b123abbf13bc8905d4f2ced3051c6
+    keywords:
+    - kubernetes
+    - machine-learning
+    name: seldon-core-crd
+    sources:
+    - https://github.com/SeldonIO/seldon-core
+    urls:
+    - https://windkit.github.io/kubeflow-images/seldon-charts/seldon-core-crd-0.1.5-SNAPSHOT.tgz
+    version: 0.1.5-SNAPSHOT
+  - apiVersion: v1
+    created: 2018-03-07T15:24:35.704869368Z
+    description: Seldon Core CRD helm chart for Kubernetes
+    digest: fd0ddc81c224d43d32e8943f8d10496e855375b895cb1503c135f6c6d7e944a8
+    keywords:
+    - kubernetes
+    - machine-learning
+    name: seldon-core-crd
+    sources:
+    - https://github.com/SeldonIO/seldon-core
+    urls:
+    - https://windkit.github.io/kubeflow-images/seldon-charts/seldon-core-crd-0.1.6_SNAPSHOT.tgz
+    version: 0.1.6_SNAPSHOT
+  - apiVersion: v1
+    created: 2018-03-26T16:15:22.289606+01:00
+    description: Seldon Core CRD helm chart for Kubernetes
+    digest: 341b63f651c1c8a13c17eab932df404d4a3cf13cca70c48cf3b244c0bc0a63c4
+    keywords:
+    - kubernetes
+    - machine-learning
+    name: seldon-core-crd
+    sources:
+    - https://github.com/SeldonIO/seldon-core
+    urls:
+    - https://windkit.github.io/kubeflow-images/seldon-charts/seldon-core-crd-0.1.6_SNAPSHOT.tgz
+    version: 0.1.6_SNAPSHOT
+  - apiVersion: v1
+    created: 2018-03-26T16:30:48.731841+01:00
+    description: Seldon Core CRD helm chart for Kubernetes
+    digest: ce4d0657de7d2fdfabe403496afc0a279fdf0cf59a984cfd074104ce87ebf94e
+    keywords:
+    - kubernetes
+    - machine-learning
+    name: seldon-core-crd
+    sources:
+    - https://github.com/SeldonIO/seldon-core
+    urls:
+    - https://windkit.github.io/kubeflow-images/seldon-charts/seldon-core-crd-0.1.5a.tgz
+    version: 0.1.5a
+  seldon-core-kafka:
+  - apiVersion: v1
+    created: 2018-12-16T17:14:07.209326976Z
+    description: Seldon Core Kafka
+    digest: ec6955b4098400209c57395e2ec584dcc1134c8d35efcf969cb416159038adaf
+    keywords:
+    - seldon-core
+    - kafka
+    name: seldon-core-kafka
+    sources:
+    - https://github.com/SeldonIO/seldon-core
+    urls:
+    - https://windkit.github.io/kubeflow-images/seldon-charts/seldon-core-kafka-0.1.tgz
+    version: "0.1"
+  seldon-core-loadtesting:
+  - apiVersion: v1
+    created: 2018-12-16T17:14:07.209555393Z
+    description: Loadtesting for seldon core
+    digest: 6495cf1272dbcf4c3407e4807b6e7348e5aaa64b94e2ec70db814cfab5dc1fb4
+    keywords:
+    - kubernetes
+    - machine-learning
+    name: seldon-core-loadtesting
+    sources:
+    - https://github.com/SeldonIO/seldon-core
+    urls:
+    - https://windkit.github.io/kubeflow-images/seldon-charts/seldon-core-loadtesting-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v1
+    created: 2018-03-30T08:57:21.72889906+01:00
+    description: Loadtesting for seldon core
+    digest: 973259fdc8bec448238edcffe03f0918486e9d682bc9a3e4af9af9acba348b64
+    keywords:
+    - kubernetes
+    - machine-learning
+    name: seldon-core-loadtesting
+    sources:
+    - https://github.com/SeldonIO/seldon-core
+    urls:
+    - https://windkit.github.io/kubeflow-images/seldon-charts/seldon-core-loadtesting-0.1.0.tgz
+    version: 0.1.0
+  seldon-core-usagestats:
+  - apiVersion: v1
+    created: 2018-03-22T14:51:01.062115Z
+    description: Seldon Core usage stats helm chart for Kubernetes
+    digest: a4267ae6c0c3852c28a68061cd3e4c63475641e32821d02b71b107acdfedf6c0
+    name: seldon-core-usagestats
+    urls:
+    - https://windkit.github.io/kubeflow-images/seldon-charts/seldon-core-usagestats-0.1.5.tgz
+    version: 0.1.5
+  - apiVersion: v1
+    created: 2018-03-22T14:41:41.312942Z
+    description: Seldon Core usage stats helm chart for Kubernetes
+    digest: 31508be4a10322d5b7ebdd1b6a400698ea3e7913afe93f8014800a6c060e7985
+    name: seldon-core-usagestats
+    urls:
+    - https://windkit.github.io/kubeflow-images/seldon-charts/seldon-core-usagestats-0.1.tgz
+    version: "0.1"
+  seldon-mab:
+  - apiVersion: v1
+    created: 2018-12-16T17:14:07.209764073Z
+    description: Seldon Core Multi-Armed Bandit Solver template. Uses a multi-armed
+      bandit solver to send traffic to the best performing model. You will need to
+      utilize both the predict and send_feedback API methods.
+    digest: 477b7d07cda74ec2b544bbad9e78056991ce69291269b3b849341dc1d8f4a8c3
+    keywords:
+    - kubernetes
+    - machine-learning
+    name: seldon-mab
+    sources:
+    - https://github.com/SeldonIO/seldon-core
+    urls:
+    - https://windkit.github.io/kubeflow-images/seldon-charts/seldon-mab-0.1.tgz
+    version: "0.1"
+  seldon-od-if:
+  - apiVersion: v1
+    created: 2018-12-16T17:14:07.209949996Z
+    description: Seldon Core isolation forest outlier detection model template
+    digest: fe40a808460ea604272f510a4515341bca01ff94449b20ff6d1b3bbefbcb9c18
+    keywords:
+    - kubernetes
+    - machine-learning
+    name: seldon-od-if
+    sources:
+    - https://github.com/SeldonIO/seldon-core
+    urls:
+    - https://windkit.github.io/kubeflow-images/seldon-charts/seldon-od-if-0.1.tgz
+    version: "0.1"
+  seldon-od-vae:
+  - apiVersion: v1
+    created: 2018-12-16T17:14:07.210148954Z
+    description: Seldon Core outlier detection model template
+    digest: 6aee5e74c7ee7a57e34bd1d3039186ce937a704ab9a41d20ac0655bd9e514ef4
+    keywords:
+    - kubernetes
+    - machine-learning
+    name: seldon-od-vae
+    sources:
+    - https://github.com/SeldonIO/seldon-core
+    urls:
+    - https://windkit.github.io/kubeflow-images/seldon-charts/seldon-od-vae-0.1.tgz
+    version: "0.1"
+  seldon-single-model:
+  - apiVersion: v1
+    created: 2018-12-16T17:14:07.210354617Z
+    description: Seldon Core single model template
+    digest: ea82e68d082a2d44cbd57de253bb862991509a77a365e1a7a308b9ef1dce3d16
+    keywords:
+    - kubernetes
+    - machine-learning
+    name: seldon-single-model
+    sources:
+    - https://github.com/SeldonIO/seldon-core
+    urls:
+    - https://windkit.github.io/kubeflow-images/seldon-charts/seldon-single-model-0.1.tgz
+    version: "0.1"
+generated: 2018-12-16T17:14:07.205138127Z
